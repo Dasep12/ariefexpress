@@ -319,7 +319,7 @@
     var update = function () {
         date = moment(new Date())
         datetime.html(date.format('HH:mm'));
-        datetime2.html(date.format('dddd, MMMM Do YYYY'));
+        datetime2.html(date.format('dddd, MMMM D YYYY'));
     };
 
     $(document).ready(function(){
